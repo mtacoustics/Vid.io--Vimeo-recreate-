@@ -79,6 +79,10 @@ button {
     text-align: center;
     padding: 0 0 10px;
   }
+  
+  #logo {
+    display: none;
+  }
 
   .header h1 {
     padding-top: 20px;
@@ -338,5 +342,27 @@ padding: 20px 0;
 
   .icon-container img:hover {
     transform: scale(1.2);
+  }
+
+  #logo {
+    color: black;
+    position: absolute;
+    font-size: 150px;
+    font-weight: bolder;
+    display: inline;
+    top: 100px;
+    font-family: 'Sacramento', cursive;
+    left: 200px;
+  }
+
+  #sub-header {
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline;
+    top: 370px;
+    font-family: 'Montserrat', sans-serif;
+    left: 170px;
   }
 }
