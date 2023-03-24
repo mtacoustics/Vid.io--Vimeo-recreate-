@@ -155,14 +155,17 @@ body {
 
   .marketing, .marketing button {
     background-color: white;
+    transition: all .2s ease-in-out;
   }
 
   .employee, .employee button {
-    background-color: white;;
+    background-color: white;
+    transition: all .2s ease-in-out;
   }
 
   .yoga, .yoga button {
     background-color: white;
+    transition: all .2s ease-in-out;
   }
 
   .integration-tile {
@@ -263,15 +266,15 @@ padding: 20px 0;
   }
 
   .marketing button:hover {
-    background-color: lightblue;
+    transform: scale(1.05);
   }
 
   .employee button:hover {
-    background-color: lightblue;;
+    transform: scale(1.05);
   }
 
   .yoga button:hover {
-    background-color: lightblue;
+    transform: scale(1.05);
   }
 
   .testamonial-tile {
