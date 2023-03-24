@@ -73,12 +73,16 @@ body {
   .header {
     color: white;
     text-align: center;
-    padding: 0 0 150px;
+    padding: 0 0 10px;
   }
 
   .header h1 {
     padding-top: 20px;
     color: skyblue;
+  }
+
+  .header .call2 {
+    margin-top: 170px;
   }
 
   .header img {
@@ -129,6 +133,10 @@ body {
     width: 90%;
     padding-top: 20px;
     border-radius: 10px;
+  }
+
+  .tile-container h2 {
+    color: white;
   }
 
   .tile-container button {
@@ -226,3 +234,72 @@ padding: 20px 0;
     font-size: 10px;
     text-align: center;
   }
+
+
+  @media only screen and (min-width: 600px) {
+    .tile-container {
+      flex-direction: row;
+
+    }
+
+    .tile-container .marketing, .employee, .yoga {
+      width: 85%;
+      height: 600px;
+      border-radius: 15px;
+    }
+
+    .header-btns button {
+      width: 20%;
+      height: 40px;
+      margin: 30px;
+      border-radius: 7px;
+      font-weight: bold;
+  }
+
+  .marketing, .marketing button {
+    background-color: white;
+  }
+
+  .employee, .employee button {
+    background-color: white;;
+  }
+
+  .yoga, .yoga button {
+    background-color: white;
+  }
+
+  .testamonial-tile {
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 30px;
+    margin: 0 auto 100px;
+    width: 30%;
+    height: 200px;
+  }
+
+  .icons-left {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .icons-right {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .integration-tile {
+    background-color: white;
+    height: 250px;
+    text-align: center;
+    width: 100%;
+padding: 20px 0;
+  }
+}
