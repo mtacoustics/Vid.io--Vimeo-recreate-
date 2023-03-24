@@ -4,6 +4,10 @@ body {
     font-family: 'Montserrat', sans-serif;;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
