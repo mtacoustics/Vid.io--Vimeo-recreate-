@@ -354,7 +354,7 @@ padding: 20px 0;
     font-size: 150px;
     font-weight: bolder;
     display: inline;
-    top: 100px;
+    top: 75px;
     font-family: 'Sacramento', cursive;
     left: 200px;
   }
@@ -365,8 +365,14 @@ padding: 20px 0;
     font-size: 30px;
     font-weight: bolder;
     display: inline;
-    top: 370px;
+    top: 350px;
     font-family: 'Montserrat', sans-serif;
     left: 170px;
+  }
+
+  .header img {
+    height: 600px;
+    object-fit: cover;
+    object-position: 0 25%;
   }
 }
