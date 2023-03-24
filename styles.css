@@ -351,23 +351,23 @@ padding: 20px 0;
   #logo {
     color: black;
     position: absolute;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: bolder;
     display: inline;
-    top: 75px;
+    top: 165px;
     font-family: 'Sacramento', cursive;
-    left: 200px;
+    left: 90px;
   }
 
   #sub-header {
     color: black;
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     display: inline;
     top: 350px;
     font-family: 'Montserrat', sans-serif;
-    left: 170px;
+    left: 70px;
   }
 
   .header img {
