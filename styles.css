@@ -154,15 +154,15 @@ body {
   }
 
   .marketing, .marketing button {
-    background-color: rgb(220, 203, 186);
+    background-color: white;
   }
 
   .employee, .employee button {
-    background-color: rgb(255, 183, 0);;
+    background-color: white;;
   }
 
   .yoga, .yoga button {
-    background-color: rgb(125, 133, 36);
+    background-color: white;
   }
 
   .integration-tile {
@@ -236,7 +236,7 @@ padding: 20px 0;
   }
 
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 700px) {
     .tile-container {
       flex-direction: row;
 
@@ -244,7 +244,7 @@ padding: 20px 0;
 
     .tile-container .marketing, .employee, .yoga {
       width: 85%;
-      height: 600px;
+      height: 550px;
       border-radius: 15px;
       margin: 0 20px 0 20px;
     }
@@ -255,18 +255,23 @@ padding: 20px 0;
       margin: 30px;
       border-radius: 7px;
       font-weight: bold;
+      transition: all .2s ease-in-out;
   }
 
-  .marketing, .marketing button {
-    background-color: white;
+  .header-btns button:hover {
+    transform: scale(1.05);
   }
 
-  .employee, .employee button {
-    background-color: white;;
+  .marketing button:hover {
+    background-color: lightblue;
   }
 
-  .yoga, .yoga button {
-    background-color: white;
+  .employee button:hover {
+    background-color: lightblue;;
+  }
+
+  .yoga button:hover {
+    background-color: lightblue;
   }
 
   .testamonial-tile {
@@ -301,6 +306,14 @@ padding: 20px 0;
     height: 250px;
     text-align: center;
     width: 100%;
-padding: 20px 0;
+    padding: 20px 0;
+  }
+
+  .icon-container img {
+    transition: all .2s ease-in-out;
+  }
+
+  .icon-container img:hover {
+    transform: scale(1.2);
   }
 }
