@@ -246,6 +246,7 @@ padding: 20px 0;
       width: 85%;
       height: 600px;
       border-radius: 15px;
+      margin: 0 20px 0 20px;
     }
 
     .header-btns button {
@@ -280,19 +281,19 @@ padding: 20px 0;
   .icons-left {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
   }
 
   .icons-right {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
   }
 
   .icon-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
   }
 
   .integration-tile {
